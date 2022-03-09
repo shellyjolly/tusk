@@ -24,7 +24,7 @@
 	PortletPreferences prefs = renderRequest.getPreferences();
 	// loop through all the preferences to get the colors.
 	// The three primary colors have been added to the portlet.xml so we do not 
-	// need to test for no colors.
+	// need to test for no colors--.
 	Enumeration prefNames = prefs.getNames();
 	while(prefNames.hasMoreElements()) { 
 	String thisColor = (String)prefNames.nextElement();
